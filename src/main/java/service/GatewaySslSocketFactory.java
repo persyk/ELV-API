@@ -23,10 +23,10 @@ public class GatewaySslSocketFactory extends SSLSocketFactory {
         sslSocket.setEnabledProtocols(new String[]{"TLSv1.2"});
 
         // Configure SNI
-        SNIHostName serverName = new SNIHostName("testing.api.elevateapp.cc");
-        SSLParameters sslParams = sslSocket.getSSLParameters();
-        sslParams.setServerNames(Collections.<SNIServerName>singletonList(serverName));
-        sslSocket.setSSLParameters(sslParams);
+//        SNIHostName serverName = new SNIHostName("elevateapp.cc");
+//        SSLParameters sslParams = sslSocket.getSSLParameters();
+//        sslParams.setServerNames(Collections.<SNIServerName>singletonList(serverName));
+//        sslSocket.setSSLParameters(sslParams);
 
         return sslSocket;
     }
