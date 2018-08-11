@@ -1,4 +1,4 @@
-package com.twilio.chat;
+package com.elevate.api;
 
 import io.restassured.RestAssured;
 import io.restassured.config.SSLConfig;

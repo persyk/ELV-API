@@ -1,7 +1,6 @@
-package com.twilio.chat;
+package com.elevate.api;
 
 import org.testng.annotations.Test;
-import io.restassured.RestAssured.*;
 
 import static io.restassured.RestAssured.given;
 
